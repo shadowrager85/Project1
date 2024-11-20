@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  
+  .form-button {
+    padding: 10px;
+    border: none;
+    background-color: #000000; 
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .form-button:hover {
+    background-color: #e600b8; 
+  }
+  
+  footer {
+    background-color: #ff00cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  body {
+    background: linear-gradient(229deg, #ff00cc, #ffffff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+.icon a{
+  margin-top: 30px;
+  margin-right: 15px;
+  font-weight: 900;
+  font-size: 30px;
+  color: #000000;
+  display: inline-block;
+  transition: transform 0.5s;
+  
+}
+.form-button a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.icon a :hover{
+color: #ff00cc;
+transform: translateY(-5px);
+}
+body {
+  background: linear-gradient(229deg, #ff00cc, #000000, #ffffff);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 62%}
+  50%{background-position:100% 39%}
+  100%{background-position:0% 62%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 62%}
+  50%{background-position:100% 39%}
+  100%{background-position:0% 62%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 62%}
+  50%{background-position:100% 39%}
+  100%{background-position:0% 62%}
+}
+  

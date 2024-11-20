@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .thankyou-container {
+    text-align: center;
+  }
+  footer {
+    background-color: #ff00cc; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .icon a{
+    margin-top: 30px;
+    margin-right: 15px;
+    font-weight: 900;
+    font-size: 30px;
+    color: #000000;
+    display: inline-block;
+    transition: transform 0.5s;
+    
+}
+.icon a :hover{
+ color: #ff00cc;
+ transform: translateY(-5px);
+}
+body {
+    background: linear-gradient(229deg, #ff00cc, #000000, #ffffff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 62%}
+    50%{background-position:100% 39%}
+    100%{background-position:0% 62%}
+}
+  

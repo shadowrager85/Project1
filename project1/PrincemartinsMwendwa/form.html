@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<title>Contact Us</title>
+<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <form id="contact-form" name="submit-to-google-sheet">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit" class="submit-button"  onclick="window.location.href = 'thanks.html';">Send Message</button>
+    </form>
+  </div>
+  <footer>
+    <p>© 2024 Prince and Acacia Crest. All rights reserved.</p>
+  </footer>
+  <div class="icon">
+    <a href="facebook.com"> <i class="fa-brands fa-facebook"></i></a>
+    <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    <a href="twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
